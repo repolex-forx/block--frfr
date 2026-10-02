@@ -1,0 +1,17 @@
+[2026-10-02T10:20:32Z] === ENRICH ITERATION 1 START | repo=block/frfr sha=b4d7462d ===
+[2026-10-02T10:20:32Z] [iter=1] PHASE START: enrich repo=block/frfr sha=b4d7462d runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/b4d7462d-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/b4d7462d0ced29f65abb03abfd8442808d528493.nq.gz
+[2026-10-02T10:20:32Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-10-02T10:20:42Z] [iter=1] AST store loaded triples=402802 load_secs=10 mem_mb=627 MB
+[2026-10-02T10:20:42Z] [iter=1] Step 2: Finding LSP targets mem_mb=627 MB
+[2026-10-02T10:20:42Z] [iter=1] LSP targets found call_sites=2779 imports=84 extends=0 implements=0 secs=0
+[2026-10-02T10:20:42Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=627 MB
+[2026-10-02T10:20:44Z] [iter=1] Position index built positions=26991 nodes_with_types=31612 secs=1 mem_mb=627 MB
+[2026-10-02T10:20:44Z] [iter=1] Step 3: Starting LSP resolution mem_mb=627 MB already_completed_types=[] already_completed_files=0
+[2026-10-02T10:20:44Z] [iter=1] Resolving target type target_type=call_site count=2779
+[2026-10-02T10:21:02Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=0.5 files_done=10 resolved=33 errors=2891 current=frontend/src/components/documents/DocumentsTable.tsx
+[2026-10-02T10:21:29Z] [iter=1] Target type resolved target_type=call_site resolved=122 errors=3071 secs=45 mem_mb=627 MB
+[2026-10-02T10:21:29Z] [iter=1] Resolving target type target_type=import_statement count=84
+[2026-10-02T10:21:32Z] [iter=1] Target type resolved target_type=import_statement resolved=49 errors=0 secs=3 mem_mb=627 MB
+[2026-10-02T10:21:36Z] [iter=1] Step 5: Writing final enrichment file triples=9865
+[2026-10-02T10:21:36Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/b4d7462d0ced29f65abb03abfd8442808d528493.nq.gz size_kb=169
+[2026-10-02T10:21:36Z] [iter=1] PHASE END: enrich elapsed_s=64 elapsed_min=1.1 total_triples=9865
