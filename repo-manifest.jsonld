@@ -1,0 +1,15 @@
+{
+  "@context": "https://repolex.ai/ontology/jsonld-context/repolex-context.jsonld",
+  "@id": "https://repolex.ai/r/block/frfr",
+  "@type": "gh:Repository",
+  "gh:name": "frfr",
+  "gh:owner": "block",
+  "repolex:trackedCommit": [
+    {
+      "@id": "https://repolex.ai/r/block/frfr/commit/b4d7462d0ced29f65abb03abfd8442808d528493",
+      "git:hexsha": "b4d7462d0ced29f65abb03abfd8442808d528493",
+      "repolex:parseStatus": "metadata_complete",
+      "git:tagName": "main"
+    }
+  ]
+}
