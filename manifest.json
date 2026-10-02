@@ -121,7 +121,8 @@
       "ast": [
         "aggregate/ast/b4d7462d0ced29f65abb03abfd8442808d528493/chunk-001.nq.gz"
       ],
-      "lsp": "aggregate/lsp/b4d7462d0ced29f65abb03abfd8442808d528493.nq.gz"
+      "lsp": "aggregate/lsp/b4d7462d0ced29f65abb03abfd8442808d528493.nq.gz",
+      "repolex": "aggregate/repolex/b4d7462d0ced29f65abb03abfd8442808d528493/chunk-001.nq.gz"
     }
   ],
   "commit": "commit/commit.nq.gz",
